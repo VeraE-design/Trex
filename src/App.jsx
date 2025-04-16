@@ -19,7 +19,9 @@ function App() {
       <Featured />
       <HowItWorks />
       <Reviews />
-      <Rent />
+      <div className=" max-w-[1220px] rounded-[16px] mx-auto px-2.5 bg-no-repeat top-[-322px] left-[-13px]">
+        <Rent />
+      </div>
       <Footer />
     </>
   );
